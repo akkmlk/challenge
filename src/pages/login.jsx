@@ -53,7 +53,7 @@ function Login() {
     return (
         <form onSubmit={handleSubmit} >
             <div className="w-screen h-screen flex">
-                <div className="border border-black flex-1 h-full relative">
+                <div className="flex-1 h-full relative">
                     <div className="w-[563px] flex flex-col items-center gap-y-[29px] absolute top-1/2 left-1/2 -translate-1/2">
                         <h1 className="text-[48px] text-white font-bold">Welcome to Rentverse</h1>
                         <p className="text-[18px] text-white font-semibold text-center">Realize your dream home. We craft spaces that are functional, inspiring joy, tranquility, and connection.</p>
