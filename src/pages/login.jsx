@@ -75,7 +75,8 @@ function Login() {
                                 <Button type="submit" value="Next" />
                             </div>
                         </div>
-                        <p className="text-neutral-500 text-center">Don't have a Rentverse account yet?<a href="/register" className="text-orange-400 font-bold"> Register</a></p>
+                        <p className="text-neutral-500 text-center">Don't have a Rentverse account yet?
+                            <a href="/register" className="text-orange-400 font-bold"> Register</a></p>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import CardTestimoni from "../components/CardTestimoni"
 import CardRoom from "../components/CardRoom"
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Dashboard() {
 
@@ -106,11 +107,11 @@ function Dashboard() {
         <>
             <nav className="w-full h-fit flex justify-between items-center py-6 px-10">
                 <div className="w-fit h-fit flex gap-x-[50px] items-center">
-                    <img src="/public/images/logo.png" alt="logo" />
+                    <img src="/images/logo.png" alt="logo" />
                     <ul className="flex gap-x-[78px] w-fit h-fit items-center">
                         <li><a href="" className="font-bold text-orange-400 text-lg">Home</a></li>
                         <li><a href="" className="font-bold text-slate-800 text-lg">Property</a></li>
-                        <li><a href="" className="font-bold text-slate-800 text-lg">ABout Us</a></li>
+                        <li><a href="" className="font-bold text-slate-800 text-lg">About Us</a></li>
                         <li><a href="" className="font-bold text-slate-800 text-lg">Contact</a></li>
                     </ul>
                 </div>
@@ -118,26 +119,26 @@ function Dashboard() {
                     <div className="flex gap-1 justify-center items-center">
                         <button type="button" className="w-full h-full text-red-700 rounded-xl py-2 px-3 font-semibold" onClick={handleLogout}>Logout</button>
                         <div className="w-fit h-fit">
-                            <img src="/public/images/menu.svg" alt="menu-icon" />
+                            <img src="/images/menu.svg" alt="menu-icon" />
                         </div>
                     </div>
                 ) : (
                     <div className="w-fit h-fit flex gap-x-5 items-center ">
                         <div className="w-[120px] h-fit">
-                            <a href="/login">
+                            <Link to="/login">
                                 <ButtonOutline type="button" value="Login" />
-                            </a>
+                            </Link>
                         </div>
                         <div className="w-[120px] h-fit">
-                            <a href="/register">
+                            <Link to="/register">
                                 <Button type="button" value="Register" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 )}
             </nav>
             <section className="relative w-full h-[509px]">
-                <img src="/public/images/image-dashboard.jpg" alt="image-hero" className="w-full h-full object-contain" />
+                <img src="/images/image-dashboard.jpg" alt="image-hero" className="w-full h-full object-contain" />
                 <div className="flex flex-col gap-y-[29px] w-[626px] h-fit items-center absolute top-1/2 left-1/2 -translate-1/2">
                     <h1 className="text-orange-50 text-5xl text-center font-libertinus">Build Your Dream Home Live the Lifestyle You Crave.</h1>
                     <p className="text-[18px] font-bold text-state-50 text-center">Realize your dream home. We craft spaces that are functional, inspiring joy, tranquility, and connection.</p>
@@ -172,14 +173,14 @@ function Dashboard() {
             </section>
             <section className="w-full h-fit bg-orange-950 flex justify-between py-9 px-[130px]">
                 <div className="w-[278px] h-fit flex flex-col gap-y-3.5">
-                    <img src="/public/images/logo-light.png" alt="logo-light" className="w-[123px] h-[76px]" />
+                    <img src="/images/logo-light.png" alt="logo-light" className="w-[123px] h-[76px]" />
                     <p className="text-[16px] text-white">The trushted platform for finding your perfect home, whether you’re buying, renting, or selling.</p>
                     <div className="flex gap-x-6 w-fit h-fit">
-                        <img src="/public/images/instagram.svg" alt="icon-instagram" />
-                        <img src="/public/images/youtube.svg" alt="icon-youtube" />
-                        <img src="/public/images/facebook.svg" alt="icon-facebook" />
-                        <img src="/public/images/tiktok.svg" alt="icon-tiktok" />
-                        <img src="/public/images/x.svg" alt="icon-x" />
+                        <img src="/images/instagram.svg" alt="icon-instagram" />
+                        <img src="/images/youtube.svg" alt="icon-youtube" />
+                        <img src="/images/facebook.svg" alt="icon-facebook" />
+                        <img src="/images/tiktok.svg" alt="icon-tiktok" />
+                        <img src="/images/x.svg" alt="icon-x" />
                     </div>
                 </div>
                 <div className="w-fit h-fit flex flex-col gap-y-6">
