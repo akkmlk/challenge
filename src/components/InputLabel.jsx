@@ -21,9 +21,9 @@ function InputLabel(props) {
                 {type === 'password' && (
                     <div className="w-6 h-6 absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer" onClick={() => setShowPassword(!showPassword)}>
                         {showPassword ? (
-                            <img src="/public/images/eye-on.svg" className="w-full h-full" alt="hide" />
+                            <img src="/images/eye-on.svg" className="w-full h-full" alt="hide" />
                         ) : (
-                            <img src="/public/images/eye-off.svg" className="w-full h-full" alt="show" />
+                            <img src="/images/eye-off.svg" className="w-full h-full" alt="show" />
                         )}
                     </div>
                 )}

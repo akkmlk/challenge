@@ -76,7 +76,7 @@ function Login() {
                             </div>
                         </div>
                         <p className="text-neutral-500 text-center">Don't have a Rentverse account yet?
-                            <a href="/register" className="text-orange-400 font-bold"> Register</a></p>
+                            <Link className="text-orange-400 font-bold" to="/register">Register</Link> </p>
                     </div>
                 </div>
             </div>

@@ -92,7 +92,7 @@ function Register() {
                                 <Button type="submit" value="Next" />
                             </div>
                         </div>
-                        <p className="text-neutral-500 text-center">Already have a Rentverse account yet?<a href="/login" className="text-orange-400 font-bold"> Login</a></p>
+                        <p className="text-neutral-500 text-center">Already have a Rentverse account yet?<Link className="text-orange-400 font-bold" to="/login">Login</Link></p>
                     </div>
                 </div>
             </div>
